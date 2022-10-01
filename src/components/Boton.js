@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styleSheets/Boton.css'
+import '../styleSheets/Boton2.css'
 //este prop es destructurado
 function Boton({ texto, esBotonDeClic, manejarClic }) {
     return (

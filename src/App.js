@@ -2,7 +2,7 @@ import './App.css';
 import Boton from './components/Boton';
 import Contador from './components/Contador';
 import logotipoContador from './img/logo.jpg';
-//Este es un gancho
+//Este es un gancho para usar estados en funciones
 import { useState } from 'react';
 
 function App() {
@@ -12,11 +12,11 @@ function App() {
 
   const manejarClic = () => {
     setNumClics(numClics + 1);
+  };
 
-  }
   const reiniciarContador = () => {
     setNumClics(0);
-  }
+  };
 
   return (
     <div className='App'>

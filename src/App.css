@@ -30,7 +30,7 @@ html, body {
   filter: invert(100%);
 }
 
-.contenedor-principal {
+.contendor-principal {
   height: 550px;
   min-width: 600px;
   display: flex;
